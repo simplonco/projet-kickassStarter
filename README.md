@@ -100,6 +100,18 @@ NB : quand on est en mode "création", le formulaire est vide.
 NB : Attention : quand on supprime un projet, il faut supprimer ou desactiver les contributions  et les likes utilisateurs liés.
 ``` 
 
+### Une page “Edition de compte utilisateur” :
+
+* champ texte “nom”
+* champ texte “prénom”
+* Bouton “reset password” : => ouvre une modale "reset password"
+* bouton “validate” (valide la modification et envoie au server)
+
+### Une modale "reset password" :
+* champ "old password"
+* champ "new password"
+* champ "confirm new password"
+* bouton “validate” (valide la modification et envoie au server)
 
 
 
