@@ -65,19 +65,40 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
 * image
 * nombre total de likes
 * VALEUR TOTALE DES CONTRIBUTIONS ACTUELLES : XX XXX €
-* liste des 10 meilleurs contributeurs (avec pour chacun la valeur de sa contribution)
+* liste des 10 meilleurs contributeurs avec pour chacun la valeur de sa contribution [Seulement présent en mode connecté]
 * Champ Number “contribution” : valeur de la contribution €
 * bouton “Contribute” OU "Edit my contribution" dans le cas où une contrib a dejà été faite par l'utilisateur : => envoie la valeur saisi dans “contribution” au server
-* bouton “edit” (seulement si le projet appartient au contributeur) => la page Edition/Création de projet
+* bouton “edit” [seulement présent si le projet appartient au contributeur] => la page Edition/Création de projet
 
 ### Une page “mes projets” :
 * liste de mes projets (ceux que j’ai créés)
-* pour chaque projet :
-* nom
-* description
-* image
+  * pour chaque projet :
+    * nom
+    * description
+    * image
+    * nombre total de likes
+    * VALEUR TOTALE DES CONTRIBUTIONS ACTUELLES : XX XXX €
+    * nombre total de likes
+    * bouton “edit”
+
+### Une page “Edition / Création de projet” :
+
+```
+NB : quand on est en mode "création", le formulaire est vide.
+``` 
+
+* champ texte nom
+* champ texte description
+* champ texte image
 * nombre total de likes
-* bouton “edit”
+* liste des contributeurs (avec pour chacun la valeur de sa contribution)
+* VALEUR TOTALE DES CONTRIBUTIONS ACTUELLES : XX XXX €
+* bouton “validate” (valide la creation ou l’edition et envoie les données au server)
+* bouton “delete” [seulement présent en mode édition]
+
+```
+NB : Attention : quand on supprime un projet, il faut supprimer ou desactiver les contributions  et les likes utilisateurs liés.
+``` 
 
 
 
