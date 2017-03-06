@@ -55,7 +55,7 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
     
 ### un menu connecté (pour toutes les pages connectée) :
 * un bouton “mes projets” : => vers page “mes projets”
-* un bouton “mon compte” : => vers page “Edition de compte utilisateur”
+* un bouton “mon compte” : => vers page “compte utilisateur”
 * un bouton “créer un projet” : => vers page “Edition / Création de projet”
 * un bouton SignOut : => deconnecte la session utilsateur et redirige vers la home public
 
@@ -100,11 +100,17 @@ NB : quand on est en mode "création", le formulaire est vide.
 NB : Attention : quand on supprime un projet, il faut supprimer ou desactiver les contributions  et les likes utilisateurs liés.
 ``` 
 
-### Une page “Edition de compte utilisateur” :
+### Une page "compte utilisateur"
 
+* Nom / Prénom
+* Liste des contributions de l'utilisateur
+* Liste des likes de l'utilisateur
+* bouton "Modifier vos coordonnées" : => vers la page “Edition de compte utilisateur”
+* bouton “reset password” : => ouvre une modale "reset password"
+
+### Une page “Edition de compte utilisateur” :
 * champ texte “nom”
 * champ texte “prénom”
-* Bouton “reset password” : => ouvre une modale "reset password"
 * bouton “validate” (valide la modification et envoie au server)
 
 ### Une modale "reset password" :
