@@ -17,7 +17,9 @@ Le site doit comprendre les éléments suivants :
     * nom
     * description
     * image
-    * bouton “Voir”
+    * nombre total de likes
+    * VALEUR TOTALE DES CONTRIBUTIONS ACTUELLES : XX XXX €
+    * bouton “Voir” : redirige vers la page du projet
 * un bouton SignIn / SignUp permettant d'ouvrir la modale correspondante
 
 ### Une modale “Signin” :
@@ -65,13 +67,13 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
 * image
 * nombre total de likes
 * VALEUR TOTALE DES CONTRIBUTIONS ACTUELLES : XX XXX €
-* liste des 10 meilleurs contributeurs avec pour chacun la valeur de sa contribution [Seulement présent en mode connecté]
+* liste des 10 meilleurs contributeurs avec pour chacun la valeur de sa contribution **[Seulement présent en mode connecté]**
 * Champ Number “contribution” : valeur de la contribution €
-* bouton “Contribute” OU "Edit my contribution" dans le cas où une contrib a dejà été faite par l'utilisateur : => envoie la valeur saisi dans “contribution” au server
-* bouton “edit” [seulement présent si le projet appartient au contributeur] => la page Edition/Création de projet
+* bouton “Contribute” OU "Edit my contribution" dans le cas où une contrib a dejà été faite par l'utilisateur : => envoie la valeur saisi dans “contribution” au server **[Seulement présent en mode connecté]**
+* bouton “edit” : => la page Edition/Création de projet **[seulement présent si le projet appartient au contributeur]**
 
 ### Une page “mes projets” :
-* liste de mes projets (ceux que j’ai créés)
+* liste de mes projets (ceux que 'utilisateur courant a créés)
   * pour chaque projet :
     * nom
     * description
@@ -118,6 +120,25 @@ NB : Attention : quand on supprime un projet, il faut supprimer ou desactiver le
 * champ "new password"
 * champ "confirm new password"
 * bouton “validate” (valide la modification et envoie au server)
+
+## API routes à mettre en place :
+
+* User login : POST api/auth/create
+* User registration : POST api/auth/login
+* User update : POST api/user/:id
+* Change User password : POST api/user/:pid/password
+* Get all projects : GET api/projects
+* Search projects by name : GET api/projects?search=xxx
+* Get project by id : GET api/project/:pid
+* Create project : POST api/project
+* Update project : UPDATE api/project/:pid 
+* Delete project : DELETE api/project/:pid
+* Get user's projects GET api/user/:uid/projects
+* User like or unlike project POST api/project/:pid/like
+* User contribute to project POST api/project/:pid/contribute
+
+
+[Example](http://blog.slatepeak.com/refactoring-a-basic-authenticated-api-with-node-express-and-mongo/)
 
 
 
