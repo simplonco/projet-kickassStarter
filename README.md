@@ -139,6 +139,7 @@ NB : Attention : quand on supprime un projet, il faut supprimer ou desactiver le
 
 
 [Example](http://blog.slatepeak.com/refactoring-a-basic-authenticated-api-with-node-express-and-mongo/)
+[Google search](https://www.google.fr/search?q=mongoose+delete+rules&oq=mongoose+delete+rules&aqs=chrome..69i57.7999j0j4&sourceid=chrome&ie=UTF-8#safe=off&q=github+mongoose+examples&*)
 
 
 
