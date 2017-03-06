@@ -9,7 +9,7 @@ La start up KickAssStarter souhaite développer une plateforme de Crowed funding
 
 Le site doit comprendre les éléments suivants :
 
-### une page "home public" :
+### Une page "home public" :
 
 * Un champ de recherche par nom de projet
 * une liste de projets (liste de projets par défaut OU résultat de la recherche) 
@@ -20,7 +20,7 @@ Le site doit comprendre les éléments suivants :
     * bouton “Voir”
 * un bouton SignIn / SignUp permettant d'ouvrir la modale correspondante
 
-### Modale “Signin” :
+### Une modale “Signin” :
 
 * champ texte “email”
 * champ text “password”
@@ -29,7 +29,7 @@ Le site doit comprendre les éléments suivants :
 En cas de succès du login, l'utilisateur est redirigé vers la home connectée
 ```
 
-### Modal “Signup” :
+### Une modale “Signup” :
 
 * champ texte “nom”
 * champ texte “prénom”
@@ -41,7 +41,7 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
 En cas de succès du login, l'utilisateur est redirigé vers la home connectée
 ```
 
-### une page “home connecté” :
+### Une page “home connecté” :
 * Un champ de recherche par nom de projet
 * une liste de projets (liste de projets par défaut OU résultat de la recherche) 
   * Pour chaque projet :
@@ -53,7 +53,7 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
     * bouton “Voir” : redirige vers la page du projet
     * bouton "like" : ajoute un like sur le projet
     
-### un menu connecté (pour toutes les pages connectée) :
+### Un menu connecté (pour toutes les pages connectée) :
 * un bouton “mes projets” : => vers page “mes projets”
 * un bouton “mon compte” : => vers page “compte utilisateur”
 * un bouton “créer un projet” : => vers page “Edition / Création de projet”
