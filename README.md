@@ -23,28 +23,32 @@ il est fortement conseillé d'utiliser celles que vous connaissez :
 * Mongoose
 * MongoDB
 
-### Découper le projet en tache
+### Découper le projet en tâches
 
-* Identifier les grandes taches
-* Identifier les roles et les compétences
+* Identifier les grandes tâches
+* Identifier les rôles et les compétences
 * Découper le projet & créer votre backlog (trello ou autre)
-* Regrouper vos tâches en sprint
+* Regrouper vos tâches en sprints
 
 ### Les grandes taches
 
 * Global
   * Scrum master
-  * 
+  * Conception
+  * Web design & UX
+  * mise en place du stack technique
 
 * Back end :
   * Design de la base de donnée (moogoose schema)
   * Identifier et créer les routes d'api
   * Créer la route static pour les assets
   * Créer la route principale pour l'app
-  * Choisir une strategie d'authentification
+  * Choisir une strategie d'authentification (s'il y en a une)
 
 * Front end :
-  *
+  * create-react-app
+  * framework css ou pas
+  * les routes de l'app (react router)
 
 
 
