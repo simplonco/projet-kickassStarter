@@ -51,7 +51,7 @@ il est fortement conseillé d'utiliser celles que vous connaissez :
   * les routes de l'app (react router)
 
 
+## Exemples & tutoriaux :
 
-
-[Example](http://blog.slatepeak.com/refactoring-a-basic-authenticated-api-with-node-express-and-mongo/)
-[Google search](https://www.google.fr/search?q=mongoose+delete+rules&oq=mongoose+delete+rules&aqs=chrome..69i57.7999j0j4&sourceid=chrome&ie=UTF-8#safe=off&q=github+mongoose+examples&*)
+* [Example](http://blog.slatepeak.com/refactoring-a-basic-authenticated-api-with-node-express-and-mongo/)
+* [Google search](https://www.google.fr/search?q=mongoose+delete+rules&oq=mongoose+delete+rules&aqs=chrome..69i57.7999j0j4&sourceid=chrome&ie=UTF-8#safe=off&q=github+mongoose+examples&*)
