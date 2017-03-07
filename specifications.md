@@ -36,7 +36,7 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
 
 ## Une page “home connecté” :
 * Un champ de recherche par nom de projet
-* une liste de projets (liste de projets par défaut OU résultat de la recherche)
+* Une liste de projets (liste de projets par défaut OU résultat de la recherche)
   * Pour chaque projet :
     * nom
     * description
@@ -47,10 +47,10 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
     * bouton "like" : ajoute un like sur le projet
 
 ## Un menu connecté (pour toutes les pages connectée) :
-* un bouton “mes projets” : => vers page “mes projets”
-* un bouton “mon compte” : => vers page “compte utilisateur”
-* un bouton “créer un projet” : => vers page “Edition / Création de projet”
-* un bouton SignOut : => deconnecte la session utilsateur et redirige vers la home public
+* Un bouton “mes projets” : => vers page “mes projets”
+* Un bouton “mon compte” : => vers page “compte utilisateur”
+* Un bouton “créer un projet” : => vers page “Edition / Création de projet”
+* Un bouton SignOut : => deconnecte la session utilsateur et redirige vers la home public
 
 ## Un page “projet”
 * nom
@@ -64,8 +64,8 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
 * bouton “edit” : => la page Edition/Création de projet **[seulement présent si le projet appartient au contributeur]**
 
 ## Une page “mes projets” :
-* liste de mes projets (ceux que 'utilisateur courant a créés)
-  * pour chaque projet :
+* Liste de mes projets (ceux que 'utilisateur courant a créés)
+  * Pour chaque projet :
     * nom
     * description
     * image
@@ -77,7 +77,7 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
 ## Une page “Edition / Création de projet” :
 
 ```
-NB : quand on est en mode "création", le formulaire est vide.
+NB : Quand on est en mode "création", le formulaire est vide.
 ```
 
 * champ texte nom
