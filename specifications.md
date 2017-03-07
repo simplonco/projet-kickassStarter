@@ -61,7 +61,7 @@ En cas de succès du login, l'utilisateur est redirigé vers la home connectée
 * liste des 10 meilleurs contributeurs avec pour chacun la valeur de sa contribution **[Seulement présent en mode connecté]**
 * Champ Number “contribution” : valeur de la contribution €
 * bouton “Contribute” OU "Edit my contribution" dans le cas où une contrib a dejà été faite par l'utilisateur : => envoie la valeur saisi dans “contribution” au server **[Seulement présent en mode connecté]**
-* bouton “edit” : => la page Edition/Création de projet **[seulement présent si le projet appartient au contributeur]**
+* bouton “edit” : => la page Edition/Création de projet **[seulement présent si le projet appartient à l'utilisateur courant]**
 
 ## Une page “mes projets” :
 * Liste de mes projets (ceux que 'utilisateur courant a créés)
@@ -98,7 +98,7 @@ NB : Attention : quand on supprime un projet, il faut supprimer ou desactiver le
 * Nom / Prénom
 * Liste des contributions de l'utilisateur
 * Liste des likes de l'utilisateur
-* bouton "Modifier vos coordonnées" : => vers la page “Edition de compte utilisateur”
+* bouton "Modifier votre profil" : => vers la page “Edition de compte utilisateur”
 * bouton “reset password” : => ouvre une modale "reset password"
 
 ## Une page “Edition de compte utilisateur” :
@@ -122,7 +122,7 @@ NB : Attention : quand on supprime un projet, il faut supprimer ou desactiver le
 * Search projects by name : GET api/projects?search=xxx
 * Get project by id : GET api/project/:pid
 * Create project : POST api/project
-* Update project : UPDATE api/project/:pid
+* Update project : PUT api/project/:pid
 * Delete project : DELETE api/project/:pid
 * Get user's projects GET api/user/:uid/projects
 * User like or unlike project POST api/project/:pid/like
