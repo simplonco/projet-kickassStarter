@@ -34,20 +34,24 @@ il est fortement conseillé d'utiliser celles que vous connaissez :
 
 * Global
   * Scrum master
-  * 
+  * Conception
+  * Web design & UX
+  * mise en place du stack technique
 
 * Back end :
   * Design de la base de donnée (moogoose schema)
   * Identifier et créer les routes d'api
   * Créer la route static pour les assets
   * Créer la route principale pour l'app
-  * Choisir une strategie d'authentification
+  * Choisir une strategie d'authentification (s'il y en a une)
 
 * Front end :
-  *
+  * create-react-app
+  * framework css ou pas
+  * les routes de l'app (react router)
 
 
+## Exemples & tutoriaux :
 
-
-[Example](http://blog.slatepeak.com/refactoring-a-basic-authenticated-api-with-node-express-and-mongo/)
-[Google search](https://www.google.fr/search?q=mongoose+delete+rules&oq=mongoose+delete+rules&aqs=chrome..69i57.7999j0j4&sourceid=chrome&ie=UTF-8#safe=off&q=github+mongoose+examples&*)
+* [Example](http://blog.slatepeak.com/refactoring-a-basic-authenticated-api-with-node-express-and-mongo/)
+* [Google search](https://www.google.fr/search?q=mongoose+delete+rules&oq=mongoose+delete+rules&aqs=chrome..69i57.7999j0j4&sourceid=chrome&ie=UTF-8#safe=off&q=github+mongoose+examples&*)
