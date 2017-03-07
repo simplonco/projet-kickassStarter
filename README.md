@@ -11,6 +11,8 @@ Le prototype doit permettre aux utilisateurs de
 - créer un projet
 - voter pour un projet
 - contribuer financièrement à un projet
+- Voir les projets des autres
+- Rechercher par nom
 
 ## Consignes & conseils
 
